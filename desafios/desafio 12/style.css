@@ -41,19 +41,39 @@ section{
     font-size: 3vw;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;    
     color: black;
 }
 
 section.imagem{
-    background-color: black;
+    background-color: rgba(88, 86, 86, 0.267);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.63);
+    background-attachment: fixed;
 }
 
-section.imagem > p{
+section.imagem > p {
     display: inline block;
     background-color: rgba(0, 0, 0, 0.404);
+    padding: 5px;
+    text-shadow: 2px 2px 0 black;
+}
+
+section#img1{
+    background-image: url(./imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img2{
+    background-image: url('./imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 header p{
