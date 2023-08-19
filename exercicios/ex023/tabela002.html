@@ -11,11 +11,30 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            border: 1px solid rgb(0, 0, 0);
+            padding: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: lightslategrey;
         }
 
         thead, tfoot{
             background-color: lightskyblue;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightblue;
         }
 
         td, th{
@@ -33,6 +52,7 @@
 <body>
     <h1>Uso de Tabelas Grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <th>Estado</th>
             <th>População</th>
@@ -98,7 +118,185 @@
                 <td>Espírito Santo	</td>
                 <td class="num">3 833 486</td>
             </tr>
-            
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 420 459</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 136 417	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 443 208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 880 506</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 155</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 791 688</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 116 132</td>
+            </tr>
+            <tr>
+                <td> Santa Catarina</td>
+                <td class="num">7 609 601</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 055 228</td>
+            </tr>
+            <tr>
+                <td> Maranhão</td>
+                <td class="num">6 775 152</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3 974 495</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3 941 175	</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo	</td>
+                <td class="num">3 833 486</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 420 459</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 136 417	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 443 208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 880 506</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 155</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 791 688</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 116 132</td>
+            </tr>
+            <tr>
+                <td> Santa Catarina</td>
+                <td class="num">7 609 601</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 055 228</td>
+            </tr>
+            <tr>
+                <td> Maranhão</td>
+                <td class="num">6 775 152</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3 974 495</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3 941 175	</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo	</td>
+                <td class="num">3 833 486</td>
+            </tr><tr>
+                <td>São Paulo</td>
+                <td class="num">44 420 459</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 136 417	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 443 208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 880 506</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 155</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 791 688</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 116 132</td>
+            </tr>
+            <tr>
+                <td> Santa Catarina</td>
+                <td class="num">7 609 601</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 055 228</td>
+            </tr>
+            <tr>
+                <td> Maranhão</td>
+                <td class="num">6 775 152</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3 974 495</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3 941 175	</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo	</td>
+                <td class="num">3 833 486</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
